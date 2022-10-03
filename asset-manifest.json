@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Remy/static/css/main.50554843.css",
+    "main.js": "/Remy/static/js/main.64e979be.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Remy/static/js/787.1ed0c42c.chunk.js",
+    "static/media/deut.gif": "/Remy/static/media/deut.a415f51e2f196a9ca968.gif",
+    "static/media/asteroids.gif": "/Remy/static/media/asteroids.6fcba71ecb5c098d1748.gif",
+    "static/media/magic-garden.gif": "/Remy/static/media/magic-garden.35d6304494938370926e.gif",
+    "static/media/gameOfLife.gif": "/Remy/static/media/gameOfLife.f5b4e02c19d578db34cd.gif",
+    "static/media/dungeon.gif": "/Remy/static/media/dungeon.6e1caf27c522e4be807d.gif",
+    "index.html": "/Remy/index.html",
+    "main.50554843.css.map": "/Remy/static/css/main.50554843.css.map",
+    "main.64e979be.js.map": "/Remy/static/js/main.64e979be.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Remy/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50554843.css",
+    "static/js/main.64e979be.js"
+  ]
+}
