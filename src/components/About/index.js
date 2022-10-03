@@ -33,11 +33,11 @@ const About = () => {
         unq = p1.replace(/\"/g, "");
         document.getElementById('p1').innerHTML = unq;
 
-        const p2 = JSON.stringify(Translations[lang]['p1']);
+        const p2 = JSON.stringify(Translations[lang]['p2']);
         unq = p2.replace(/\"/g, "");
         document.getElementById('p2').innerHTML = unq;
 
-        const p3 = JSON.stringify(Translations[lang]['p1']);
+        const p3 = JSON.stringify(Translations[lang]['p3']);
         unq = p3.replace(/\"/g, "");
         document.getElementById('p3').innerHTML = unq;
     });
