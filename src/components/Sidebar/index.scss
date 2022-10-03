@@ -1,0 +1,146 @@
+.nav-bar {
+    background-color: #041618;
+    border-style: none;
+    border-right-style: solid;
+    border-color: #041618;
+    border-right-color: none;
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    min-height: 500px;
+    transition: border 250ms ease-out;
+
+    &:hover {
+        border-right-color: #d73d30;
+    }
+
+    .logo {
+        display: block;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 20px;
+        animation: fadeIn 1s 3s backwards;
+    }
+
+    nav {
+        display: block;
+        text-align: center;
+        position: absolute;
+        height: 210px;
+        top: 50%;
+        margin-top: -120px;
+        width: 100%;
+
+        a {
+            font-size: 22px;
+            color: #fff;
+            display: block;
+            line-height: 51px;
+            height: 51px;
+            position: relative;
+            text-decoration: none;
+
+            i {
+                transition: all 0.3s ease-out;
+            }
+
+            &:hover {
+                color: #d73d30;
+
+                svg {
+                    opacity: 0;
+                }
+
+                &:after {
+                    opacity: 1;
+                }
+            }
+
+            &:after {
+                content: '';
+                font-size: 12px;
+                letter-spacing: 2px;
+                position: absolute;
+                bottom: 0;
+                display: block;
+                width: 100%;
+                text-align: center;
+                opacity: 0;
+                transform: all 0.3s ease-out;
+                transition: all 0.3s ease-out;
+            }
+        }
+
+        a.home-link {
+            animation: fadeIn 1s 3s backwards;
+
+            &:after {
+                content: 'HOME';
+            }
+        }
+
+        a.about-link {
+            animation: fadeIn 1s 3.25s backwards;
+
+            &:after {
+                content: 'ABOUT';
+            }
+        }
+
+        a.portfolio-link {
+            animation: fadeIn 1s 3.5s backwards;
+
+            &:after {
+                content: 'PORTFOLIO';
+            }
+        }
+
+        a.contact-link {
+            animation: fadeIn 1s 3.75s backwards;
+
+            &:after {
+                content: 'CONTACT';
+            }
+        }
+
+        a.active {
+            svg {
+                color: #d73d30;
+            }
+        }
+    }
+
+    ul {
+        position: absolute;
+        bottom: 50px;
+        width: 100%;
+        display: block;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+        margin: 0;
+
+        li {
+            a {
+                padding: 7px 0;
+                display: block;
+                font-size: 15px;
+                line-height: 16px;
+            }
+
+            a.linkedin-link {
+                animation: fadeIn 1s 3s backwards;
+            }
+    
+            a.github-link {
+                animation: fadeIn 1s 3.25s backwards;
+            }
+
+            &:hover svg {
+                color: #d73d30;
+            }
+        }
+    }
+}

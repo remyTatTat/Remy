@@ -1,0 +1,22 @@
+{
+    "en-us": {
+        "h1": "Hi, I'm Remy.",
+        "h2": "I like to make. Find out more in your choice of language in the bottom-right corner.",
+        "button": "Explore"
+    },
+    "es-co": {
+        "h1": "Hola, soy Remy.",
+        "h2": "Me gusta crear. Averigua màs en cualquier idioma que te gustaría en la esquina abajo a la derecha.",
+        "button": "Explora"
+    },
+    "it": {
+        "h1": "Ciao, sono Remy.",
+        "h2": "Mi piace creare. Scopri di più in qualsiasi lingua che ti piacerebbe nella'angolo in basso a destra",
+        "button": "Esplora"
+    },
+    "fr": {
+        "h1": "Bonjour, je suis Remy.",
+        "h2": "J'aime créer.",
+        "button": "Contactez Moi"
+    }
+}

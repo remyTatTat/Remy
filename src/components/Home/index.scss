@@ -1,0 +1,98 @@
+.home-page {
+    .text-zone {
+        background: rgba(4, 24, 27, 0.75);
+        position: absolute;
+        padding: 75px;
+        left: 50%;
+        top: 50%;
+        transform: translateY(-50%) translateX(-80%);
+        width: 40%;
+        max-height: 90%;
+        border-style: solid;
+        border-color: transparent;
+        border-radius: 25px;
+        transition: border 250ms ease-out, background 250ms ease-out;
+        animation: fadeIn 1s 1s backwards;
+
+        &:hover {
+                background: rgba(4, 24, 27, 0.85);
+                border-color: #d73d30;
+        }
+    }
+
+    h1 {
+        color: #fff;
+        font-size: 53px;
+        margin: 0;
+        font-family: 'Courier';
+        font-weight: 400;
+        animation: fadeIn 1s 1.5s backwards, pulse 1s 1.5s;
+
+        span:hover {
+            color: #d73d30;
+        }
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-top: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 400;
+        color: #84a4a6;
+        animation: fadeIn 1s 2s backwards, pulse 1s 2s;
+    }
+
+    .button-box {
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+
+        .flat-button {
+            background: #41130f;
+            border: none;
+            font-family:'Times New Roman', Times, serif;
+            font-weight: 400;
+            position: relative;
+            padding-top: 3px;
+            width: 25px;
+            height: 10px;
+            text-align: center;
+            display: block;
+            float: left;
+            animation: fadeIn 1s 2s backwards, pulse 1s 2s;
+
+            &:nth-of-type(1) {
+                animation-delay: 2.25s;
+            }
+            &:nth-of-type(2) {
+                animation-delay: 2.3s;
+            }
+            &:nth-of-type(3) {
+                animation-delay: 2.35s;
+            }
+        }
+    }
+
+}
+
+.flat-button {
+    color: #dbd7d3;
+    background: none;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 10px;
+    border: 1px solid #d73d30;
+    margin-top: 25px;
+    float: left;
+    animation: fadeIn 1s 2.5s backwards, pulse 1s 2.5s;
+    white-space: nowrap;
+    transition: background 250ms ease-out, color 250ms ease-out;
+
+    &:hover {
+        background: #d73d30 !important;
+        color: black;
+    }
+}

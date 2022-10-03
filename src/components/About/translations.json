@@ -1,0 +1,20 @@
+{
+    "en-us": {
+        "h1": "What would you like to know?",
+        "p1": "I’m a college-educated Frontend Developer with extensive experience using technologies ranging from common web tools to more niche frameworks to create visually intriguing and interactive programs and web pages.",
+        "p2": "Everything you see before you was created by me — including the live background. This very website was developed using the widely popular React, while the more eye-catching and interactive features were built with less common tools like p5.js.",
+        "p3": "Explore as much as you’d like, or simply distract yourself by playing with the bubbles. I do that sometimes."
+    },
+    "es-co": {
+        "h1": "Que te gustaría saber?",
+        "p1": "Soy un desarollador de Frontend educado de la universidad con experiencia extensiva usando tecnologías que van desde instrumentos de web mas comunes hasta aquellos de nicho para crear programas y páginas de web visualmente intrigantes y interactivas.",
+        "p2": "Todo aquello que ves delante de ti ha sido creado por mi -- incluyendo el fondo en vivo. Este mismo sitio fue desarrollado usando React, lo cual es bien popular, mientras las características mas llamativas y interactivas fueron construidos con instrumentos menos comunes como p5.js.",
+        "p3": "Explora toda lo que te gustaría, o simplemente distráete al jugar con las burbujas. Eso lo hago de vez en cuando."
+    },
+    "it": {
+        "h1": "Cosa ti piacerebbe sapere?",
+        "p1": "Sono uno sviluppatore di Frontend educato dall'università con vasta esperienza nell'uso delle technologie che vanno dallo strumento web più commune ai ciò di nicchia per creare programmi e pagine web visivamente intriganti e interattivi.",
+        "p2": "Tutto quello che vedi davanti a te è stato creato da me -- includendo lo sfondo dal vivo. Questo stesso sito è stato sviluppato utilizzando React, che è molto popolare, mentre gli aspetti più accattivanti e interattivi sono stato costruiti con strumenti meno comune come p5.js.",
+        "p3": "Esplora tutto che ti piacerebbe, o semplicemente distraiti giocando con le bolle. Quello lo faccio a volte."
+    }
+}
